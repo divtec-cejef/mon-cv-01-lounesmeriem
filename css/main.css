@@ -1,8 +1,16 @@
 body {
     background: #0babf5;
     color: #e8e0e0;
+
+}
+img{
+    max-height: 100%;
+    height: auto;
 }
 
 h1 {
     color: #ff004d;
+}
+h2{
+    color: darkblue;
 }
