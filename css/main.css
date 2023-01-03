@@ -1,5 +1,5 @@
 body {
-    background: #0babf5;
+    background: #036086;
     color: #e8e0e0;
 
 }
@@ -9,8 +9,11 @@ img{
 }
 
 h1 {
-    color: #ff004d;
+    color: #f1e108;
 }
 h2{
-    color: darkblue;
+    color: #21a20a;
+}
+li{
+    text-align: justify-all;
 }
