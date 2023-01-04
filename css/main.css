@@ -1,7 +1,6 @@
 body {
-    background: #036086;
+    background: linear-gradient(90deg, #8360c3, #2ebf91);
     color: #e8e0e0;
-
 }
 img{
     max-height: 100%;
