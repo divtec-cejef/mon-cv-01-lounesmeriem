@@ -11,6 +11,7 @@ img{
 
 h1 {
     color: #f1e108;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
 }
 h2{
     color: #21a20a;
