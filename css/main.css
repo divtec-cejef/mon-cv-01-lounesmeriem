@@ -2,6 +2,9 @@ body {
     background: linear-gradient(90deg, #8360c3, #2ebf91);
     color: #e8e0e0;
 }
+div{
+    background-image: url("./icone/apple-touch-icon.png");
+}
 img{
     max-height: 100%;
     height: auto;
@@ -12,9 +15,11 @@ img{
 h1 {
     color: #f1e108;
     text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    font-family: "Arial Black";
 }
 h2{
-    color: #21a20a;
+    color: #a20f0a;
+    font-family: "Arial Black";
 }
 li{
     text-align: justify-all;
