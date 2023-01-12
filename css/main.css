@@ -5,9 +5,11 @@ body {
     border-right: 3px #F9D923 double;
     border-bottom: 3px #36AE7C dashed;
     border-left: 3px #187498 solid;
+    font-weight: 400;
 }
-div{
-    background-image: url("./icone/apple-touch-icon.png");
+image2{
+    padding: 100px;
+    background-image: url("image");
 }
 img{
     max-height: 100%;
@@ -20,19 +22,39 @@ img{
     border-left: 3px #187498 solid;
 }
 
-h1 {
+h1:hover{
     color: #f1e108;
     text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
-    font-family: "Arial Black";
+    font-family: "Arial Black", sans-serif;
     font-size: 1em;
+    font-size: 25px;
+    background-color: skyblue;
+    border-left: 5px #187498 solid;
+    padding: 100px;
+    border-radius: 40px 30px 10px 20px;
+    box-shadow: 6px 6px 6px rgba(0,0,0);
+    text-align: center;
+    opacity: 0.7;
+    font-weight: normal;
 }
 h2{
     color: #a20f0a;
-    font-family: "Arial Black";
+    font-family: "Arial Black", sans-serif;
 }
 li{
-    text-align: justify-all;
+    text-align:justify-all;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    font-size: 25px;
 }
 .menu{
     color: aqua;
+    text-align:justify-all;
+}
+p{
+    color: darkblue;
+}
+li{
+    color: greenyellow;
+    text-align: justify-all;
 }
