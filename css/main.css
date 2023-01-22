@@ -49,9 +49,15 @@ h2 {
 }
 
 h3 {
+    color: darkblue;
     text-align:center;
     font-family: Arial, sans-serif;
     font-size: 1.5em;
+    width: 350px;
+    margin: auto;
+    padding: 16px;
+    border: #F1C864;
+    background-color: #ffdd00;
 }
 
 .menu a {
@@ -71,9 +77,13 @@ h4 {
 }
 
 h5 {
-    color: greenyellow;
+    color: darkblue;
     text-align: center;
-    position: center;
+    background-color: #F1C864;
+    width: 350px;
+    margin: auto;
+    padding: 16px;
+    border: #F1C864;
 }
 
 .a {
