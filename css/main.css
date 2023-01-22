@@ -89,3 +89,11 @@ h5 {
 .a {
     width:  50px;
 }
+
+ul {
+    width: 350px;
+    background-color: #a20f0a;
+    text-align: center;
+    padding: 16px;
+    margin: auto;
+}
