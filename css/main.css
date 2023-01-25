@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(90deg, #8360c3, #2ebf91);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 23%, rgba(0,212,255,1) 100%);
     color: #e8e0e0;
     border-top: 3px #EB5353 dotted;
     border-right: 3px #F9D923 double;
@@ -23,11 +24,11 @@ img {
 }
 
 h1:hover {
-    color: #f1e108;
+    color: #050505;
     text-shadow: 3px 3px 3px rgba(0,0,0,0.2);
     font-family: "Arial Black", sans-serif;
     font-size: 1em;
-    background-color: skyblue;
+    background-image: url("https://th.bing.com/th/id/OIP.Gln2dNqE4gklrUZ5zBdxUAHaEc?pid=ImgDet&rs=1") ;
     border-left: 5px #187498 solid;
     padding: 100px;
     border-radius: 40px 30px 10px 20px;
@@ -62,8 +63,9 @@ h3 {
 
 .menu a {
     color: aqua;
-    text-align:center;
+    text-align: center;
     font-weight: 700;
+    background-color: #C2B0F9;
 }
 
 h4 {
@@ -87,13 +89,52 @@ h5 {
 }
 
 .a {
-    width:  50px;
+    width: 100px;
+    font-weight: 700;
 }
 
 ul {
-    width: 350px;
+    width: 700px;
     background-color: #a20f0a;
-    text-align: center;
+    text-align: justify;
     padding: 16px;
     margin: auto;
+    flex-wrap: wrap-reverse;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    align-content: stretch;
+}
+
+.une {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    background-color: #a20f0a;
+    border-radius: 10px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deux {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    background-color: #a20f0a;
+    border-radius: 10px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trois {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    background-color: #a20f0a;
+    border-radius: 10px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
